@@ -37,3 +37,24 @@ Darin Fisher's (VP of Chrome Engineering) keynote:
 * Predictability: The web should just work for developers. [browser-issue-tracker-search](https://browser-issue-tracker-search.appspot.com/)
 * Looking ahead: Web assemebly, WebGL 2.0, WebVR, WebAR, WebBluetooth. 
 
+## Building Progresive Web apps.
+> Thao Tran, talks about it.
+
+* Looking back from the previous year to this in the progress of progressive webapp.
+* Toys lasts for a week! Was the Flipkart PWA a unicorn, not really! 
+* Beyond Flipkart the overall momentum went up. 
+* 17K across 35 countires for a PWA summit. 
+* What is a PWA? Radically improving web user experiences; It's a joureny; 
+* [building-indexable-progressive-web-apps](https://webmasters.googleblog.com/2016/11/building-indexable-progressive-web-apps.html)
+* Housing.com Android App -> $3.75 and Mobile Web -> $0.07; 30% faster page load; 38% increase in conversion. 
+* Early beta of [web elm](https://mobile-beta.westelm.com) PWA.
+* Infobase Latin America: 65% of traffic is on mobile, < 1s page load time. 
+* Lyft rolled out an mobile site just to test orders: they had 5x more rides from mobile web! So they are building a PWA which will be `<1MB` compared to 17MB andoird and 75MB ios.
+* MakeMyTrip: Same day reservation from mobile web, PWA users book 3x more on their first visit! 
+* The Weather company (An IBM Business): 18months ago they started: Moved to HTTPS, Web Push notification, 178 countries in 62 languages now!
+* PWA: Acquistion; Engagement; Conversion; Retention.
+
+
+
+
+
