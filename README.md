@@ -55,6 +55,32 @@ Darin Fisher's (VP of Chrome Engineering) keynote:
 * PWA: Acquistion; Engagement; Conversion; Retention.
 
 
+## Sign-in on the web; crendtial management API
+> Sabine and Eiji share best practices for sign-in, and explains how the Credential Management API makes frictionless sign-in possible.
+
+* Removing friction
+* Growth: 54℅ will abandon rather than register.
+* autocomplete inputs.
+* Avoiding login friction: 92℅ leave the site if they can't recall the password.
+* Leverage the power of the browser to make sign-up easier with credential management API.
+* Session management and 2 cookie handoff using serviceworkers.
+* Launched in Chrome 51.
+* Problems that this API solves:  Auto sign-in, Smart lock for passwords.
+* Auto sign-in across devices.
+* Supports multiple accounts.
+* Virtually enables a permanent
+* Remembers federated accounts.
+* Steps: Interrupt the from submission; send an Ajax request; store the credential information; update the UI.
+* Federated login cases: Auth; store the identity information; store the credentials.
+
+## Faster payments.
+> One of the hardest web user experience challenges is enabling users to make payments. Zach shows us how with the new Web Payment API.
 
 
+* Save the world from annoying checkouts form.
+* PaymentRequest API: Not a new payment method; Not a gateway or a processor;
+* Fundamentally build for users, is a standard-based API making payments easier for users.
+* Main goals: Easy checkout and secure payment on Web.
+* Supported data types: Credit cards and Android pay; Shipping address, options, phone, email, payer name.
+* All the data points are stored and returned from the browser.
 
