@@ -99,3 +99,20 @@ Darin Fisher's (VP of Chrome Engineering) keynote:
 * NodeJS main context debugging in the same devTools.
 * Application tab > manifest, clear storage, servicework et.al.
 * Audting PWA: Audit2.0 uses the power of Lighthouse. 
+
+## Polymer, Web Components & You.
+> Taylor Savage and Monica Dinculescu on the current state of Polymer, and how you can use Web Components to improve your development.
+
+* Mobile device constraints. 
+* Use the platform.
+* Primay focus of Polymer are web-components. 
+* Web Components V1. (Cross browser web component)
+* Polymer 0.5 was an experiment, 1.0 was production-ready, 2.0 shall be web native.
+* Who is using Polymer: Comcast, ING, BBVA, Netaporte, Coca-Cola, EA, Predix, Google and others. 
+* Polymer App Toolbox: Set of web components, CLI, PRPL pattern; Example -> [shop](https://shop.polymer-project.org)
+* JUMIA Travels use case: 75% of mobile connection is on 2G in Africa, >2x faster page load on 2G and 6x less data than native app.
+* What's next on ploymer? Polymer2.0 - Web component V1 support; Better interoperability; Minimally breaking (backwards compatibility); Supports hybrid mode (i.e both on V1 and V2). 
+* Polymer is light, it's just 12kb. 
+* Polymer is about elements! element development is hard; Authors, maintainers and users of elements are the player here.
+* 100+ elements in polymer; 3 orgs; 20+ apps; 500+ projects.
+* Steps: Think of the features; Map the features to components; 
