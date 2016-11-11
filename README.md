@@ -6,45 +6,45 @@ Chrome DevSummit Notes
 
 Darin Fisher's (VP of Chrome Engineering) keynote:
 
-* Mission: Move the web platfrom forward.
+* Mission: Move the web platform forward.
 * Over 2 billion active Chrome users across mobile and desktop.
 * Not just Chrome, the Web has a reach!
-* Links the Web's superpower, physical becons. [Polymon](https://polymon.polymer-project.org/)
-* Every inteaction step costs 20% of your potential users! 
+* Links the Web's superpower, physical beacons. [Polymon](https://polymon.polymer-project.org/)
+* Every interaction step costs 20% of your potential users! 
 * The Web is Mobile: Constrains has lead to innovation. 
 * Build for Mobile Web is a priority: Connectivity constraints 
 * Almost 60% in developing market are on 2G! 
 * 230M in US, 460M in India (100M new users every year!) 760M in China.
 * 65% of Indian population aren't online yet, 20% in US are not yet online. 
 * Web works well really well in emerging markets: Flipkart, Voot Viacom18.
-* Progressive Web Apps: Radically improving web experince. Not able on technology, it's more about new way of building web experince. 
+* Progressive Web Apps: Radically improving web experience. Not able on technology, it's more about new way of building web experience. 
 * Demo on [cnet-tech-today](http://cnet.com/tech-today) a progressive webapp.
-* Alibaba usecase study: 76% higher conversion due to progressive webapp; Singles day is an event in China on November 11th is the biggest event on the internet, 3times more than cyber Monday, is on a progressive webapp.
-* Fast - 53% of users abandunt the site which takes more than 3 seconds to load. 
+* Alibaba usecase study: 76% higher conversion due to progressive webapp; Singles day is an event in China on November 11th is the biggest event on the internet, 3 times more than cyber Monday, is on a progressive webapp.
+* Fast - 53% of users abundant the site which takes more than 3 seconds to load. 
 * Refresher on service worker API. 
 * The Monica Per Test gets a mention. 
-* Apps should be interactive within 5seconds over 3G.
-* Engaing - Add to Home screen; 4x more engagement due to this feature; prompting users sooner yields 48% more installs. 
+* Apps should be interactive within 5 seconds over 3G.
+* Engaging - Add to Home screen; 4x more engagement due to this feature; prompting users sooner yields 48% more installs. 
 * Install vs ATHS.
 * Improving ATHS flow so the website will be in all apps location. 
 * Ability to update the home screen icon or the name. 
 * Push notification: 18 Billion push notifications sent everyday over 50,000 domains using it! 
-* Seamless Sign-In: 85% redcution in sign in failure for AliExpress, Pinterest 10% increase in desktop logins. 
+* Seamless Sign-In: 85% reduction in sign in failure for AliExpress, Pinterest 10% increase in desktop logins. 
 * WebPayments: Payment request API. 
 * Productivity: Lighthouse, Real World condition testing, Security and Applications panel in Chrome. 
 * Polymer gets a mention. 
-* [Beta webcomponets](https://beta.webcomponents.org/) and AMP. 
+* [Beta webcomponents](https://beta.webcomponents.org/) and AMP. 
 * Predictability: The web should just work for developers. [browser-issue-tracker-search](https://browser-issue-tracker-search.appspot.com/)
-* Looking ahead: Web assemebly, WebGL 2.0, WebVR, WebAR, WebBluetooth. 
+* Looking ahead: Web assembly, WebGL 2.0, WebVR, WebAR, WebBluetooth. 
 
-## Building Progresive Web apps.
+## Building Progressive Web apps.
 > Thao Tran, talks about it.
 
 * Looking back from the previous year to this in the progress of progressive webapp.
 * Toys lasts for a week! Was the Flipkart PWA a unicorn, not really! 
 * Beyond Flipkart the overall momentum went up. 
-* 17K across 35 countires for a PWA summit. 
-* What is a PWA? Radically improving web user experiences; It's a joureny; 
+* 17K across 35 countries for a PWA summit. 
+* What is a PWA? Radically improving web user experiences; It's a journey; 
 * [building-indexable-progressive-web-apps](https://webmasters.googleblog.com/2016/11/building-indexable-progressive-web-apps.html)
 * Housing.com Android App -> $3.75 and Mobile Web -> $0.07; 30% faster page load; 38% increase in conversion. 
 * Early beta of [web elm](https://mobile-beta.westelm.com) PWA.
@@ -55,8 +55,8 @@ Darin Fisher's (VP of Chrome Engineering) keynote:
 * PWA: Acquistion; Engagement; Conversion; Retention.
 
 
-## Sign-in on the web; crendtial management API
-> Sabine and Eiji share best practices for sign-in, and explains how the Credential Management API makes frictionless sign-in possible.
+## Sign-in on the web; Credential Management API
+> Sabine and Eiji shared best practices for sign-in, and explains how the Credential Management API makes frictionless sign-in possible.
 
 * Removing friction
 * Growth: 54℅ will abandon rather than register.
@@ -94,11 +94,11 @@ Darin Fisher's (VP of Chrome Engineering) keynote:
 * Substrings completions are better.
 * Snippets....
 * Place multiple inline break points in async or any line of code.
-* Auto picks up the workspace mapping on drap and drop. (*Source maps)
+* Auto picks up the workspace mapping on drag and drop. (*Source maps)
 * CSS coverage. Unuse CSS.
 * NodeJS main context debugging in the same devTools.
 * Application tab > manifest, clear storage, servicework et.al.
-* Audting PWA: Audit2.0 uses the power of Lighthouse. 
+* Auditing PWA: Audit2.0 uses the power of Lighthouse. 
 
 ## Polymer, Web Components & You.
 > Taylor Savage and Monica Dinculescu on the current state of Polymer, and how you can use Web Components to improve your development.
@@ -126,7 +126,7 @@ Darin Fisher's (VP of Chrome Engineering) keynote:
 * We are in the middle of a crisis. 
 * RAIL: 100ms/8ms/50ms chunks/1000ms.
 * 53% bounce with sites that take more than three seconds to load. 
-* Collectivily we are failing;
+* Collectively we are failing;
 * Why are our tools slow?
 * Your laptop is a filthy liar. 
 * Understand the depth of the deficit. 
@@ -134,8 +134,8 @@ Darin Fisher's (VP of Chrome Engineering) keynote:
 * Avg selling price of smart phones are going down; The next million users are buying their first phone.
 * Motion Mark: Desktop version is like 25x times faster. 
 * Power = Heat.
-* A desktop can emit 60W of enegry; Mobile devices can't do that!
-* No termal paste, no fans, no heat sinks on a mobile device. 
+* A desktop can emit 60W of energy; Mobile devices can't do that!
+* No thermal paste, no fans, no heat sinks on a mobile device. 
 * Dark silicon and the end of multicore scaling paper. 
 * 10.0Wh is all the battery got and it has to deal with GPU, CPU, NFC, Screen, Wifi et.al
 * big.LITTLE arch. 
@@ -148,8 +148,8 @@ Darin Fisher's (VP of Chrome Engineering) keynote:
 * Will LTE save us? Networks are slowing down. 
 * Network overhead of one HTTP request! 
 * Load less code, load it at the right time and let the browser help us whenever we can. 
-* Ignorance / Priviliage or both is the result of the frameworks today.
-* Tools that doesn't use platfrom well, we endup in the Uncanny Valley. 
+* Ignorance / Privilege or both is the result of the frameworks today.
+* Tools that doesn't use platform well, we end up in the Uncanny Valley. 
 * Serviceworkers aren't just about offline experience it's also about reliable performance! 
 * Mobile Hates You; Fight Back! 
 
@@ -168,7 +168,7 @@ Darin Fisher's (VP of Chrome Engineering) keynote:
 * Enabling HTTPS webfundamentals.
 * Search ranking should not drop, if you have done it right.
 * DevTools security panel.
-* The near future: In Chrome 56, there shall be a nutrual information icon for HTTP pages with password or credit cards input in them.
+* The near future: In Chrome 56, there shall be a neutral information icon for HTTP pages with password or credit cards input in them.
 * `#mark-non-secure-as` in `chrome://flags` 
 
 
@@ -180,7 +180,7 @@ Darin Fisher's (VP of Chrome Engineering) keynote:
 * Your users are not on the best phones.
 * 19s is the avg load time on the mobile web! 
 * User expects the page to load in 2s.
-* What it takes to load a page? Reqest Page -> Request Assets -> Parse and Paint. 
+* What it takes to load a page? Request Page -> Request Assets -> Parse and Paint. 
 * Network Delivery (for shop app): 
   * HTTP2 + no bundling on 3g => 5.5 seconds until first paint.
   * HTTP2 + no bundling + link rel="preload" on 3g => 3.3 seconds.
@@ -192,22 +192,22 @@ Darin Fisher's (VP of Chrome Engineering) keynote:
 * V8 internal metrics in Canary. 
 * Debugging a bundle. (Webpack)
 * Webpack bundle analyzer. 
-* Shipping less parsed code: `<script>` tag with invalid `type` or `<script>` tag with commented code i.e Angluar lazy module loading, Polymer CLI, Webpack agressive splitting plugin. 
+* Shipping less parsed code: `<script>` tag with invalid `type` or `<script>` tag with commented code i.e Angular lazy module loading, Polymer CLI, Webpack aggressive splitting plugin. 
 * It's a mobile world: test on real devices and real network. (What your users would use.)
-* Optimize network: sw, preload, push for fast first laods.
-* JS prase has a cost: ship the smallest amount of JS possible.
+* Optimize network: sw, preload, push for fast first loads.
+* JS parse has a cost: ship the smallest amount of JS possible.
 
 
 ## Predictability for the Web
 > Rick and Robert explained how Chrome is improving predictability for developers, how we responsibly move the web platform forward, and how web developers can help improve the platform.
 
-* The web has a problem: Working corss-browser is hard, inconsistency et.al
+* The web has a problem: Working cross-browser is hard, inconsistency et.al
 * Chrome, other web browsers and developers together can make it better!
-* Fight the platfrom less! 
+* Fight the platform less! 
 * Break websites less.
 * A more coherent platform. 
 * Remember when web development was hard?
-* Cross-browser collboration: Better interop, listening to web developers, the web is a commons.
+* Cross-browser collaboration : Better interop, listening to web developers, the web is a commons.
 * Blink Bugs: Closed more bugs than they have opened for the first time! 
 * 300 bugs in September, 93% Triaged, 62% Resolved, 16% Fix landed.
 * Out of top 1% of the stared bugs, 66% are fixed. 
@@ -217,14 +217,13 @@ Darin Fisher's (VP of Chrome Engineering) keynote:
 * Experimental Web Plaform features flag.
 * Minimizing breaking changes.
 * An example of Bug 648589: Bug was reported on Aug, but got noticed on Sept and by Oct it was shipped.
-* Breaking changes ain't just about regression it's also about deprication. EX: GeolocationInSecureOrigin rejections.
+* Breaking changes ain't just about regression it's also about deprecation. EX: GeolocationInSecureOrigin rejections.
 * Great user experience vs composition of parts you can't control. [trade offs]
 * Interventions: Minimally breaks existing behavior. EX: Throttled rendering. [WICG/interventions]
-* Developer Feeback: Listening to devs, Understanding challenges, getting data.
+* Developer Feedback: Listening to devs, Understanding challenges, getting data.
 * Improving Bug wizard for Chrome + Direct routing to the team who is working on the fix.
 * Browser Bug Searcher within the [feedback](https://developers.chrome.com/web/feedback) page.
 
 
 
 P.S: I am jet-lagged forgive the typos, shall fix them sooner.
-
