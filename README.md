@@ -224,6 +224,76 @@ Darin Fisher's (VP of Chrome Engineering) keynote:
 * Improving Bug wizard for Chrome + Direct routing to the team who is working on the fix.
 * Browser Bug Searcher within the [feedback](https://developers.chrome.com/web/feedback) page.
 
+___
+
+# Housing.com How We Built It?
+> Housing.com show you their journey to creating a great user experience.
+
+* With PWA:
+  * 30% faster page load.
+  * 10% longer avg session.
+  * 40% lower bounce rate.
+  * 38% conversions.
+* Assets delivery: HTML streaming, Preload, Service Side Rendering.
+* App Shell Model: Loding Screen of Purgatory. 
+* With SSR first meaningful paint happend at 2.3s.
+* Lazy Load & JS enabled interaction. 
+* Coding spliting with webpack2.0
+* JS and CSS sharding. 
+* Route based chunks.
+* Intent based chunks. 
+* Example on the listing page: `notifyView.js` is around `32kb` unzipped, loads only when the interaction happens. 
+* FMP `2.3s`, JS enabled inetraction `4.2s`.
+* SW to precache: FMP `712ms` to JS enabled interaction ot `1.1s` 
+* Credential Management API
+* Maintenance: Label based github PR, Route based statistics.
+* What next? React to Preact; `219` to `99`; AMP 
+
+
+# Lyft How We Built It?
+> Lyft's joureny. 
+
+* Why we build a PWA? 
+  * Greater reach.
+  * Reduce friction.
+  * Faster upload on experimentations. 
+
+* Deep linking directly to PWA.
+* No app approval, instant fixes.
+* Nov -> Jul ->Planning, Aug -> Coding starts, Beta (React PWA), Oct -> Alpha (Angular MVP),
+* Web payments, Service worker wait for push notifications on driver's arrival, which inturns has the payload for the ride, offline access, with background sync user can submit the feedback without bothering about the connection. 
+* Putting JS on diet: Lesser deps, Tree shaking, Type aware Minfication. 
+* React, Webpack, TypeScript: Bundle size is `40kb` gziped. 
+* Challenges: Bleeding edge tech; Limitations with other platforms. 
+* Don't animate opacity! 
+* #Weekly rides when up by 5x.
+* Wrapper app around Amazon app. 
+* Next: Pove & Optimzie conversion funnels, Experiment and more features! 
+
+# From AMP to PWA - the best of both worlds
+> Paul Bakaus explains the opportunity in AMP, and how to build great Progressive Web Apps with AMP.
+
+* 53% will drop off if the first load takes `3s`
+* 200-300ms latency with mobile bandwidth. 
+* RAIL says load under `1s`.
+* Current situation: Avg Mobile page loads in `19s` with `77%` of them take `10+s` with `214` requets.
+* First impression, first click is what matters. 
+* AMP: CMS -> AMP-HTML -> Speed up by AMP cache -> Fast loading -> Across platforms. 
+* Build portable beautiful high-performance webapps. 
+* AMP cache: Pre-renders only the first viewport, No 3rd part JS, One less privacy issue. 
+* AMP pages and AMP open-source JS library.
+* AMP constraints: NO {JS, SW, PushNotification, WebMainfest} from AMP cache. 
+* AMP: Instant delivery and optimized discovery.
+* AMP to PWA: AMP UP and AMP DOWN.
+* AMP is not just an website, it's an ultra portable content unit and a data format! 
+* One window, one instance of AMP lib and multiple documents. 
+* PWA: XHR -> Shadow Root -> Shadow Dom -> DOM.
+* Coming up: Shadow slots.
+* One AMP, One PWA, One Request.
+* Fallback URL rewriting: If we reach AMP page from an non-SW browser, it can be detected. 
+* Wallmart: 3 engineers for 2 weeks, Reusing exisiting AMP rendering, pipeline unchnaged; Resulted in: Performance, UX improvements, Prefeting the cache, web push.
+* Pain Points (from Wallmart): 0
+* PWAMP: for sites with static content.
 
 
 P.S: I am jet-lagged forgive the typos, shall fix them sooner.
