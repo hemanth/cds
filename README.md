@@ -295,5 +295,90 @@ ___
 * Pain Points (from Wallmart): 0
 * PWAMP: for sites with static content.
 
+## Production PWAs with frameworks
+> Addy works through building Progressive Web Apps with React at scale. Featuring special guests, Flipkart, dive into the performance and loading patterns needed to make frameworks competitive on mobile.
+
+* Polymer has been a tesla! (the car)
+* Frameworks can be fast if we put the work in.
+* Flipkart: Time to interactive -> `4.2s`
+* Housing: Time to interactive -> `4.8s` 
+* Navigation begins ->  First Paint -> First Contentful Paint -> First Meaningful paint.
+* Lighthouse with remote debugging is worth trying. 
+* Addy's survey:
+  * `83%` of them use webpack.
+  * `58%` thought they were using webpack, but webpack community says it would be `10%`.
+  * `11%` SW, `14%` HTTP2 and `19` tree shaking.
+  *  Avg react app in the survey `12s` on `3G`.
+* Try not to keep the main thread busy.
+* `1MB` script (250KN minified) JS parse, compile and eval -> `3s`. 
+* Test on real devices!
+* Less code loaded better helps everyone. 
+* Code splitting and async loading.
+* Bundle loader calls require.ensure for you.
+* Code-Splitting with react-rotuer. 
+* PRPL pattern with webpack.
+* HTTP/2 with the AggressiveSplittingPlugin.
+* Code splitting itself is not a panacea: `9.8s` TTI average. 
+* Ask yourself: What's in your bundle?
+* RFC: Webpack Performance Budgets.
+* Preact: `3KB` alternative to React with same ES6 API.
+* Source map explorer. 
+* preact and preact-compact is worth checking.
+* Housing: 1st visit on 3g in `3.5s` and repate visit is `0.8s`.
+* APP Shell: SWPrecacheWebpackPlugin.
+* Support all target users using progressive enhacnement.
+* Universal JS has issues: 
+  * Get stuck in uncanny valley.
+  * `renderToString()` impacts TTFB.
+  * `renderToString()` can monoploize CPU.
+* Mobile -> Desktop Flipkart:
+  * React, react-router, webpack, redux, node, express.
+  * Route based code splitting.
+  * PRPL
+  * Partial SSR.
+  * SW.
+* Flipkart Mobile: Build-time rendering; App Shells; SW; Composition of multiple SPA.
+* Flipkart Desktop: Partial SSR, No app shells, Chunked reponse for the first request allowing faster TTFP, SW used for caching data and resources. 
+* Chunking, Streaming and code splitting.
+* First paint of Flipkart: Search box, without JS. 
+* Major wins for Flipkart:
+  * Route based code-splitting.
+  * Smart preloading.
+  * Chunked encoding.
+* Impact of the Flipkart migration: 
+  * 2x conversion.
+  * Reduced bounce rate.
+  * 50% time reduction 
+  * 50% increase in number of pages crawled.
+  * DevOps 70% reduction in the effort.
+* Gotchas:
+  * CORS in webpack & route-based code-splitting.
+  * Cache-invalidation & webpack manifest.
+
+
+## May We Help You? Tools and Libraries for Progressive Web Apps
+> Jeff Posnick walks through Lighthouse and all the tools and libraries we produce to help web developers easily build great Progressive Web Apps.
+
+* Copy & Paste SW? Careful about pitfalls on cache {version, URLs}, fetch handlers, clearining SW. 
+
+* Production ready SW, checklist: 
+  * Use an Asset Manifest. (build time)
+  * Smart updates. (hash change)
+  * Runtime cleanup. (LRU expiration cache)
+
+* Tools for production ready SW:
+  * sw-precache.
+  * sw-toolbox.
+  * web starter kit.
+  * Polymer starter kit.
+  * sw-precache-webpack-plugin.
+  * sw-offline-google-analytics.
+  * lighthouse.
+
+* What a modren SW framework would look like?
+  * ES2015 modules and syntax throughout.
+  * Feature parity with exisiting libs.
+  * Routing + Runtime handlers + Request behaviours. 
+
 
 P.S: I am jet-lagged forgive the typos, shall fix them sooner.
