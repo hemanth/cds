@@ -116,3 +116,40 @@ Darin Fisher's (VP of Chrome Engineering) keynote:
 * Polymer is about elements! element development is hard; Authors, maintainers and users of elements are the player here.
 * 100+ elements in polymer; 3 orgs; 20+ apps; 500+ projects.
 * Steps: Think of the features; Map the features to components; 
+
+
+
+## Progressive Performance.
+> Alex Russell on the important things to focus on in performance, and how to run great experiences on slow, inconsistent networks and low-power devices.
+
+* [I realized I'd invented webpages](xkcd.com/1367)
+* We are in the middle of a crisis. 
+* RAIL: 100ms/8ms/50ms chunks/1000ms.
+* 53% bounce with sites that take more than three seconds to load. 
+* Collectivily we are failing;
+* Why are our tools slow?
+* Your laptop is a filthy liar. 
+* Understand the depth of the deficit. 
+* The truth is in the trace. 
+* Avg selling price of smart phones are going down; The next million users are buying their first phone.
+* Motion Mark: Desktop version is like 25x times faster. 
+* Power = Heat.
+* A desktop can emit 60W of enegry; Mobile devices can't do that!
+* No termal paste, no fans, no heat sinks on a mobile device. 
+* Dark silicon and the end of multicore scaling paper. 
+* 10.0Wh is all the battery got and it has to deal with GPU, CPU, NFC, Screen, Wifi et.al
+* big.LITTLE arch. 
+* "touch boost"; SMP vs HMP vs EAS. 
+* Benchmarketing is A Thing! (Can't trust them)
+* Mobile CPUs aren't really what think they are. 
+* MLC Flash is how we make storage cheaper. 
+* Read Perf: MBP: ~2GB/s and N5X: ~400MB/s.
+* Mobile networks hate you! 
+* Will LTE save us? Networks are slowing down. 
+* Network overhead of one HTTP request! 
+* Load less code, load it at the right time and let the browser help us whenever we can. 
+* Ignorance / Priviliage or both is the result of the frameworks today.
+* Tools that doesn't use platfrom well, we endup in the Uncanny Valley. 
+* Serviceworkers aren't just about offline experience it's also about reliable performance! 
+* Mobile Hates You; Fight Back! 
+
