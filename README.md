@@ -198,6 +198,32 @@ Darin Fisher's (VP of Chrome Engineering) keynote:
 * JS prase has a cost: ship the smallest amount of JS possible.
 
 
+## Predictability for the Web
+> Rick and Robert explained how Chrome is improving predictability for developers, how we responsibly move the web platform forward, and how web developers can help improve the platform.
+
+* The web has a problem: Working corss-browser is hard, inconsistency et.al
+* Chrome, other web browsers and developers together can make it better!
+* Fight the platfrom less! 
+* Break websites less.
+* A more coherent platform. 
+* Remember when web development was hard?
+* Cross-browser collboration: Better interop, listening to web developers, the web is a commons.
+* Blink Bugs: Closed more bugs than they have opened for the first time! 
+* 300 bugs in September, 93% Triaged, 62% Resolved, 16% Fix landed.
+* Out of top 1% of the stared bugs, 66% are fixed. 
+* 15 % of the top 60 stared bugs were fixed this year.
+* [wicg](https://github.com/wicg) Web Incubator CG.
+* Consensus & Standardization across browsers.
+* Experimental Web Plaform features flag.
+* Minimizing breaking changes.
+* An example of Bug 648589: Bug was reported on Aug, but got noticed on Sept and by Oct it was shipped.
+* Breaking changes ain't just about regression it's also about deprication. EX: GeolocationInSecureOrigin rejections.
+* Great user experience vs composition of parts you can't control. [trade offs]
+* Interventions: Minimally breaks existing behavior. EX: Throttled rendering. [WICG/interventions]
+* Developer Feeback: Listening to devs, Understanding challenges, getting data.
+* Improving Bug wizard for Chrome + Direct routing to the team who is working on the fix.
+* Browser Bug Searcher within the [feedback](https://developers.chrome.com/web/feedback) page.
+
 
 
 P.S: I am jet-lagged forgive the typos, shall fix them sooner.
