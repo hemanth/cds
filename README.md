@@ -380,5 +380,72 @@ ___
   * Feature parity with exisiting libs.
   * Routing + Runtime handlers + Request behaviours. 
 
+## Client storage: shave seconds off your load time with one simple trick
+> Dru explores the landscape of storage APIs: past, present and future, provides best practices and explains the finer details.
+
+* 2.5% of page traffic uses indexDB or cache storage. 
+* Client storage is the largest loading performance win.
+* 53% of users quit the site if it takes more than 3s to load the page.
+* On 3g 320s to load 1MB! 
+* Offline vs Cache: Think of storage of a cache. 
+* Cache: Browser cache, Optimized browser cache, Content caching, Full cache control.
+* Browser cache: 
+  * Speed up repeat visit.
+  * Network responses only.
+  * Unpridictiable.
+  * No granularity.
+
+* Optimized browser cache:
+  * Minimal practive page load.
+  * Network responses only.
+  * Unpridictiable.
+  * No granularity.
+
+* Content caching:
+  * Proactive page load improvements.
+  * All response types.
+  * Some predictability.
+  * Content granularity for content only.
+
+* Full cache control:
+  * Proactive page load improvements.
+  * All response types.
+  * Fully predictability.
+  * Content granularity for content and network request.
+  * Offline support.
+
+* Best practices:
+  * Client side chunking.
+  * Preload pages the user might visit.
+  * Save commonly repeated components.
+
+* Libs:
+  * idb
+  * localForage
+  * others...
+
+* Browser quota limit
+  * Chrome - 6% LRU when full.
+  * Firefox - 10% LRU when disk is full.
+  * Safari - at least 10% dosn't clear.
+  * Edge - hmm doesn't clear.
+
+* Things to note, when you think about storage:
+  * Overall storage footprint.
+  * Read : Write ratio.
+  * Time since last eviction when you store something. 
+
+* Persistent storage:
+  * Chrome 55, in development in FF.
+  * Granting heuristic.
+  * Show offline UI once you get the permission
+  * Use the quota estimate API to mesaure usage.
+
+* Upcoming: IDB Observers; Async Cookies; IDB Promises; Writeable Files.
+
+* Takeawaus:
+  * Storage isn't just offline.
+  * `50MB` is min storage for now.
+  * IndexDB is for the strcutred data and cache for the other.
 
 P.S: I am jet-lagged forgive the typos, shall fix them sooner.
