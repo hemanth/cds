@@ -172,5 +172,33 @@ Darin Fisher's (VP of Chrome Engineering) keynote:
 * `#mark-non-secure-as` in `chrome://flags` 
 
 
+## Planning for Performance: PRPL
+> Sam explains how to get the browser to do things under budget - script and resource loading and more.
+
+* The Pitch: Your manager asks: "Well does this work on mobile?"
+* Mobile web is not more a subset of web, it's simply the web!
+* Your users are not on the best phones.
+* 19s is the avg load time on the mobile web! 
+* User expects the page to load in 2s.
+* What it takes to load a page? Reqest Page -> Request Assets -> Parse and Paint. 
+* Network Delivery (for shop app): 
+  * HTTP2 + no bundling on 3g => 5.5 seconds until first paint.
+  * HTTP2 + no bundling + link rel="preload" on 3g => 3.3 seconds.
+  * H2 server push + no bundling on 3g => 1.7 seconds.
+* H2 server push is not cache aware, lacking resource prioritization, but H2 server push + SW is Nirvana! 
+* Preload is good  for moving the start download time of an asset closer to initial request.
+* H2 push is good for cutting out a full RTT.
+* Nov 2010 -> 113kb of JS, today in 2106 we are shipping 400+kb of JS.
+* V8 internal metrics in Canary. 
+* Debugging a bundle. (Webpack)
+* Webpack bundle analyzer. 
+* Shipping less parsed code: `<script>` tag with invalid `type` or `<script>` tag with commented code i.e Angluar lazy module loading, Polymer CLI, Webpack agressive splitting plugin. 
+* It's a mobile world: test on real devices and real network. (What your users would use.)
+* Optimize network: sw, preload, push for fast first laods.
+* JS prase has a cost: ship the smallest amount of JS possible.
+
+
+
+
 P.S: I am jet-lagged forgive the typos, shall fix them sooner.
 
