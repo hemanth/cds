@@ -84,3 +84,18 @@ Darin Fisher's (VP of Chrome Engineering) keynote:
 * Supported data types: Credit cards and Android pay; Shipping address, options, phone, email, payer name.
 * All the data points are stored and returned from the browser.
 
+## Debugging The Web.
+> Learn the state of the art in debugging using Chrome DevTools - all you need to know to expand your toolbox.
+
+* Debugging like a boss: Making it clear on why there was an issue right on the devtools. In Chrome55+ the screen orientation will not affect the content much. 
+* ES6 + DevTools.
+* Text editor like REPL in DevTools.
+* Better autocompletion on Objects.
+* Substrings completions are better.
+* Snippets....
+* Place multiple inline break points in async or any line of code.
+* Auto picks up the workspace mapping on drap and drop. (*Source maps)
+* CSS coverage. Unuse CSS.
+* NodeJS main context debugging in the same devTools.
+* Application tab > manifest, clear storage, servicework et.al.
+* Audting PWA: Audit2.0 uses the power of Lighthouse. 
