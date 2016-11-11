@@ -153,3 +153,24 @@ Darin Fisher's (VP of Chrome Engineering) keynote:
 * Serviceworkers aren't just about offline experience it's also about reliable performance! 
 * Mobile Hates You; Fight Back! 
 
+## Real Talk about HTTPS
+> Emily shows why the default for the web should be secure, and describes Chrome's mission to be honest with our users about HTTPS.
+
+* What does HTTP mean for an avg user?
+* HTTPS usage today: HTTPS at Google. (Transparency report); On Desktop platform 53% of users are using HTTPS sites; Not the pages but the % of time spent is important;
+* HTTPS performance is getting better. Checkout [istlsfastyet](https://istlsfastyet.com) 
+* Make HTTPS mandatory for privacy sensitive features.
+* HTTP2 might also be adding an over head, but it's getting better.
+* We need your help to get close to HTTPS everywhere!
+* Don't be a Cry wolf victim.
+* Chrome has funded to Let's encrypt.
+* Ads that are only on HTTP not if they are Google sourced ads. 
+* Enabling HTTPS webfundamentals.
+* Search ranking should not drop, if you have done it right.
+* DevTools security panel.
+* The near future: In Chrome 56, there shall be a nutrual information icon for HTTP pages with password or credit cards input in them.
+* `#mark-non-secure-as` in `chrome://flags` 
+
+
+P.S: I am jet-lagged forgive the typos, shall fix them sooner.
+
