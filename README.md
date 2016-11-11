@@ -443,9 +443,46 @@ ___
 
 * Upcoming: IDB Observers; Async Cookies; IDB Promises; Writeable Files.
 
-* Takeawaus:
+* Takeaways:
   * Storage isn't just offline.
   * `50MB` is min storage for now.
   * IndexDB is for the strcutred data and cache for the other.
+
+
+## Advanced JS performance with V8 and Web Assembly
+> Seth shares the current state of JavaScript and script tooling in V8, and discusses the future with WebAssembly.
+
+* Measuring perf: 
+  * Era 1 (2007-2012) MicroBenchMarks.
+  * Era 2 (2012-present) Static test suites.
+  * Era 3 (present-??) Real web pages.
+
+* `V8` instrumentation:
+  * JavaScript
+  * CallBack
+  * Parse
+  * Runtime
+  * Compile
+  * IC
+  * GC
+  * Optimize
+  * Unknown
+
+* Page loads for the top 23 sites improved by a median of 5%
+
+* Speedpmeter: 15-25% faster which mesaure perfs of framework. 
+
+* Chrome's overall memory consumption reduced by up to 35%. 
+
+* Engine update: Ignition; 1.5-2x smaller code size, ~3x faster generators.
+
+* Faster builtins: Object.create, bind and [].push.
+
+* Async/await : Readability, debuggability; Waiting inline is a bad pattern.
+
+* WebAssembly : Small, fast, low-level, cross browser binary format.
+
+* `WebAssembly.compile(bytes)` `WebAssembly.Instance(module)`
+
 
 P.S: I am jet-lagged forgive the typos, shall fix them sooner.
