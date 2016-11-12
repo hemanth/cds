@@ -484,5 +484,97 @@ ___
 
 * `WebAssembly.compile(bytes)` `WebAssembly.Instance(module)`
 
+## The “Progressive” in Progressive Web Apps
+> Patrick Kettner, Edge PM, Microsoft
+
+* 2g ruined my life.
+* 45M ruined my day.
+* Greensock Hushlittleba.by < 6K 
+* AppCache, `hta` files.
+* Radical new way of creating and updating websites.
+* PWAs on edge.
+* Bing shall crawl for PWAs.
+* [Download](https://webmanife.st/) manifest.
+* WebWorkerPreProcessor.
+
+## Future App Model: Advanced Service Worker
+> Jake (one of the originators of Service Workers) shares the future of the web app model, with Foreign Fetch, Streams and more.
+
+* Streams.
+* Async iterators.
+* Transform streams.
+* Identity streams.
+* PWA ≠ SPA.
+* Navigation preload.
+* `Promise.race` is a dick! 
+* Forigen Fetch.
+* Background Fetch.
+* Navigation transitions.
+
+
+## What Comes Next for the Web? 
+> Paul shares the next visionary steps for the web, with WebVR, Performance and more
+
+* Distrubtion is the hardest problem in software.
+* The model for delivering on web is way better than any!
+* Web had to catch up on native APIs.
+* What is the mobile we game plan? 
+  * Get parity with native. 
+  * Profit! 
+* What have we got?
+  * Geolocation.
+  * Camera.
+  * Microphone.
+  * Battery Status.
+  * Permissions.
+  * Network information.
+  * Autofill.
+  * Credential Management API.
+  * PaymentRequest API.
+  * Push notifications.
+  * Offline support.
+  * Installability.
+
+* There are just a big list of APIs! 
+
+* How do we keep the best elements of the web?
+
+* Secure
+  Linkable
+  Indexable
+  Composable
+  Ephemeral and more...
+
+* Plan:
+
+  * Smooth out the platfrom:
+    * position: sticky, Intersection Observer, Web Componensts, PWA, ATHS.
+    * PWA: App drawer and system UI.
+    * PWA ACTION_VIEW.
+    * Launch the PWA from notifiction.
+    * PWA fresh name + icon.
+    * "scope" attribuite in `manifest.json`
+
+  * Decrease the feature gap:
+    * Doing science on the Web.
+    * OriginTrails.
+    * Navigator Share.
+    * Web Target.
+    * Media improvements.
+    * Background playback.
+    * canvas.captureStream() + Web RTC
+    * canvas.captureStream() + MediaRecorder.
+    * `ImageCaputre` API.
+    * `FaceDetector` API.
+    * Generic Sensor API.
+    * `AmbientLightSensor` API.
+    * Fused Sensors.
+
+  * Enable new content and interactions.
+    * Physical Web.
+    * Web Bluetooth.
+    * WebUSB.
+    * WebVR.
+
 
 P.S: I am jet-lagged forgive the typos, shall fix them sooner.
