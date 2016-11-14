@@ -1,5 +1,5 @@
 # CDS
-Chrome DevSummit Notes
+Chrome DevSummit 2016 Notes
 
 ## KeyNote
 > The state of Chrome and the Web Platform today, from the leader of the Chrome team.
@@ -214,7 +214,7 @@ Darin Fisher's (VP of Chrome Engineering) keynote:
 * 15 % of the top 60 stared bugs were fixed this year.
 * [wicg](https://github.com/wicg) Web Incubator CG.
 * Consensus & Standardization across browsers.
-* Experimental Web Plaform features flag.
+* Experimental Web Platform features flag.
 * Minimizing breaking changes.
 * An example of Bug 648589: Bug was reported on Aug, but got noticed on Sept and by Oct it was shipped.
 * Breaking changes ain't just about regression it's also about deprecation. EX: GeolocationInSecureOrigin rejections.
@@ -235,15 +235,15 @@ ___
   * 40% lower bounce rate.
   * 38% conversions.
 * Assets delivery: HTML streaming, Preload, Service Side Rendering.
-* App Shell Model: Loding Screen of Purgatory. 
-* With SSR first meaningful paint happend at 2.3s.
+* App Shell Model: Loading Screen of Purgatory. 
+* With SSR first meaningful paint happened at 2.3s.
 * Lazy Load & JS enabled interaction. 
-* Coding spliting with webpack2.0
+* Coding splitting with webpack2.0
 * JS and CSS sharding. 
 * Route based chunks.
 * Intent based chunks. 
 * Example on the listing page: `notifyView.js` is around `32kb` unzipped, loads only when the interaction happens. 
-* FMP `2.3s`, JS enabled inetraction `4.2s`.
+* FMP `2.3s`, JS enabled interaction `4.2s`.
 * SW to precache: FMP `712ms` to JS enabled interaction ot `1.1s` 
 * Credential Management API
 * Maintenance: Label based github PR, Route based statistics.
@@ -251,7 +251,7 @@ ___
 
 
 # Lyft How We Built It?
-> Lyft's joureny. 
+> Lyft's journey. 
 
 * Why we build a PWA? 
   * Greater reach.
@@ -262,13 +262,13 @@ ___
 * No app approval, instant fixes.
 * Nov -> Jul ->Planning, Aug -> Coding starts, Beta (React PWA), Oct -> Alpha (Angular MVP),
 * Web payments, Service worker wait for push notifications on driver's arrival, which inturns has the payload for the ride, offline access, with background sync user can submit the feedback without bothering about the connection. 
-* Putting JS on diet: Lesser deps, Tree shaking, Type aware Minfication. 
+* Putting JS on diet: Lesser deps, Tree shaking, Type aware Minification. 
 * React, Webpack, TypeScript: Bundle size is `40kb` gziped. 
 * Challenges: Bleeding edge tech; Limitations with other platforms. 
 * Don't animate opacity! 
 * #Weekly rides when up by 5x.
 * Wrapper app around Amazon app. 
-* Next: Pove & Optimzie conversion funnels, Experiment and more features! 
+* Next: Pove & Optimize conversion funnels, Experiment and more features! 
 
 # From AMP to PWA - the best of both worlds
 > Paul Bakaus explains the opportunity in AMP, and how to build great Progressive Web Apps with AMP.
@@ -276,7 +276,7 @@ ___
 * 53% will drop off if the first load takes `3s`
 * 200-300ms latency with mobile bandwidth. 
 * RAIL says load under `1s`.
-* Current situation: Avg Mobile page loads in `19s` with `77%` of them take `10+s` with `214` requets.
+* Current situation: Avg Mobile page loads in `19s` with `77%` of them take `10+s` with `214` requests.
 * First impression, first click is what matters. 
 * AMP: CMS -> AMP-HTML -> Speed up by AMP cache -> Fast loading -> Across platforms. 
 * Build portable beautiful high-performance webapps. 
@@ -291,7 +291,7 @@ ___
 * Coming up: Shadow slots.
 * One AMP, One PWA, One Request.
 * Fallback URL rewriting: If we reach AMP page from an non-SW browser, it can be detected. 
-* Wallmart: 3 engineers for 2 weeks, Reusing exisiting AMP rendering, pipeline unchnaged; Resulted in: Performance, UX improvements, Prefeting the cache, web push.
+* Wallmart: 3 engineers for 2 weeks, Reusing existing AMP rendering, pipeline unchanged; Resulted in: Performance, UX improvements, Prefetching the cache, web push.
 * Pain Points (from Wallmart): 0
 * PWAMP: for sites with static content.
 
@@ -326,11 +326,11 @@ ___
 * preact and preact-compact is worth checking.
 * Housing: 1st visit on 3g in `3.5s` and repate visit is `0.8s`.
 * APP Shell: SWPrecacheWebpackPlugin.
-* Support all target users using progressive enhacnement.
+* Support all target users using progressive enhancement.
 * Universal JS has issues: 
   * Get stuck in uncanny valley.
   * `renderToString()` impacts TTFB.
-  * `renderToString()` can monoploize CPU.
+  * `renderToString()` can monopolize CPU.
 * Mobile -> Desktop Flipkart:
   * React, react-router, webpack, redux, node, express.
   * Route based code splitting.
@@ -338,7 +338,7 @@ ___
   * Partial SSR.
   * SW.
 * Flipkart Mobile: Build-time rendering; App Shells; SW; Composition of multiple SPA.
-* Flipkart Desktop: Partial SSR, No app shells, Chunked reponse for the first request allowing faster TTFP, SW used for caching data and resources. 
+* Flipkart Desktop: Partial SSR, No app shells, Chunked response for the first request allowing faster TTFP, SW used for caching data and resources. 
 * Chunking, Streaming and code splitting.
 * First paint of Flipkart: Search box, without JS. 
 * Major wins for Flipkart:
@@ -359,7 +359,7 @@ ___
 ## May We Help You? Tools and Libraries for Progressive Web Apps
 > Jeff Posnick walks through Lighthouse and all the tools and libraries we produce to help web developers easily build great Progressive Web Apps.
 
-* Copy & Paste SW? Careful about pitfalls on cache {version, URLs}, fetch handlers, clearining SW. 
+* Copy & Paste SW? Careful about pitfalls on cache {version, URLs}, fetch handlers, clearing SW. 
 
 * Production ready SW, checklist: 
   * Use an Asset Manifest. (build time)
@@ -375,15 +375,15 @@ ___
   * sw-offline-google-analytics.
   * lighthouse.
 
-* What a modren SW framework would look like?
+* What a modern SW framework would look like?
   * ES2015 modules and syntax throughout.
-  * Feature parity with exisiting libs.
+  * Feature parity with existing libs.
   * Routing + Runtime handlers + Request behaviours. 
 
 ## Client storage: shave seconds off your load time with one simple trick
 > Dru explores the landscape of storage APIs: past, present and future, provides best practices and explains the finer details.
 
-* 2.5% of page traffic uses indexDB or cache storage. 
+* 2.5% of page traffic uses IndexedDB or cache storage. 
 * Client storage is the largest loading performance win.
 * 53% of users quit the site if it takes more than 3s to load the page.
 * On 3g 320s to load 1MB! 
@@ -392,13 +392,13 @@ ___
 * Browser cache: 
   * Speed up repeat visit.
   * Network responses only.
-  * Unpridictiable.
+  * Unpredictable.
   * No granularity.
 
 * Optimized browser cache:
   * Minimal practive page load.
   * Network responses only.
-  * Unpridictiable.
+  * Unpredictable.
   * No granularity.
 
 * Content caching:
@@ -427,7 +427,7 @@ ___
 * Browser quota limit
   * Chrome - 6% LRU when full.
   * Firefox - 10% LRU when disk is full.
-  * Safari - at least 10% dosn't clear.
+  * Safari - at least 10% doesn't clear.
   * Edge - hmm doesn't clear.
 
 * Things to note, when you think about storage:
@@ -439,14 +439,14 @@ ___
   * Chrome 55, in development in FF.
   * Granting heuristic.
   * Show offline UI once you get the permission
-  * Use the quota estimate API to mesaure usage.
+  * Use the quota estimate API to measure usage.
 
 * Upcoming: IDB Observers; Async Cookies; IDB Promises; Writeable Files.
 
 * Takeaways:
   * Storage isn't just offline.
   * `50MB` is min storage for now.
-  * IndexDB is for the strcutred data and cache for the other.
+  * IndexedDB is for the structured data and cache for the other.
 
 
 ## Advanced JS performance with V8 and Web Assembly
@@ -470,7 +470,7 @@ ___
 
 * Page loads for the top 23 sites improved by a median of 5%
 
-* Speedpmeter: 15-25% faster which mesaure perfs of framework. 
+* Speedometer: 15-25% faster which measure perfs of framework. 
 
 * Chrome's overall memory consumption reduced by up to 35%. 
 
@@ -507,7 +507,7 @@ ___
 * PWA ≠ SPA.
 * Navigation preload.
 * `Promise.race` is a dick! 
-* Forigen Fetch.
+* Foreign Fetch.
 * Background Fetch.
 * Navigation transitions.
 
@@ -515,7 +515,7 @@ ___
 ## What Comes Next for the Web? 
 > Paul shares the next visionary steps for the web, with WebVR, Performance and more
 
-* Distrubtion is the hardest problem in software.
+* Distribution is the hardest problem in software.
 * The model for delivering on web is way better than any!
 * Web had to catch up on native APIs.
 * What is the mobile we game plan? 
@@ -548,12 +548,12 @@ ___
 * Plan:
 
   * Smooth out the platfrom:
-    * position: sticky, Intersection Observer, Web Componensts, PWA, ATHS.
+    * position: sticky, Intersection Observer, Web Components, PWA, ATHS.
     * PWA: App drawer and system UI.
     * PWA ACTION_VIEW.
-    * Launch the PWA from notifiction.
+    * Launch the PWA from notification.
     * PWA fresh name + icon.
-    * "scope" attribuite in `manifest.json`
+    * "scope" attribute in `manifest.json`
 
   * Decrease the feature gap:
     * Doing science on the Web.
